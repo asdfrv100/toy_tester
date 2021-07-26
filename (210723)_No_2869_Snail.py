@@ -15,4 +15,6 @@ def climing(A,B,V):
         else:
             return int(count+1)
 
+        #ceil써보기
+
 print(climing(a, b, v))

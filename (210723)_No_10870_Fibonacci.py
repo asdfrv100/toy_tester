@@ -12,4 +12,5 @@ def Fibonacci(n):
     else :
         print("Input n ERR!")
 
+
 print(Fibonacci(n))
