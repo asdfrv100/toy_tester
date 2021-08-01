@@ -1,19 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-#
-#
-
-
 #내 답
 import sys
 import math
