@@ -9,14 +9,15 @@ start = time.time()
 
 num_666_list=[666,6660]
 
+reverse_candi_num = []
 for i in range(1,2800):
-    num = copy.deepcopy(i)
-    reverse_digit_num=[]
+    num = i
     digit_num = []
     while num > 10 :
-        reverse_digit_num.append(str(copy.deepcopy(num%10)))
+        digit_num.append(str(num%10))
         num=num//10
-    reverse_digit_num.append(str(copy.deepcopy(num)))
+    digit_num.append(copy.deepcopy(num))
+    print(digit_num)
 
 
     if len(reverse_digit_num) != 1:
