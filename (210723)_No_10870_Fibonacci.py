@@ -14,3 +14,5 @@ def Fibonacci(n):
 
 
 print(Fibonacci(n))
+
+print('무야호')
